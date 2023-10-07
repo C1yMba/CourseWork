@@ -52,9 +52,9 @@ public class Employee {
     @Override
     public String toString() {
         return "ID: " + getId() +
-                " ФИО: " + getFullName() +
-                " Отдел: " + getDepartment() +
-                " ЗП: " + getEmployeeSalary();
+                ", ФИО: " + getFullName() +
+                ", Отдел: " + getDepartment() +
+                ", ЗП: " + getEmployeeSalary();
     }
 
 

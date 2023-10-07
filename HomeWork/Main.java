@@ -13,7 +13,7 @@ public class Main {
         employees[7] = new Employee("Мария Ворникова Константиновна", 5, 19000);
         employees[8] = new Employee("Анна Ворникова Константиновна", 5, 19000);
         employees[9] = new Employee("Кристина Ворникова Константиновна", 5, 19000);
-        print();
+        printAllEmployees();
         System.out.println(getAllSalariesCost());
         System.out.println(getMinSalary());
         System.out.println(getMediumSalariesCost());
@@ -34,7 +34,7 @@ public class Main {
 
         }
 
-    public static void print() {
+    public static void printAllEmployees() {
         for (Employee employee : employees) {
             System.out.println(employee);
         }
